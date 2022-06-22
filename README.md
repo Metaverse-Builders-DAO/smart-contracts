@@ -6,9 +6,9 @@ This repo consists of smart contracts used by the Metaverse Builders DAO written
 ```ml
 src
 ├─ interfaces
-|  ├─ IERC20.sol "Interface for ERC20"
+│  ├─ IERC20.sol "Interface for ERC20"
 ├─ utils
-|  ├─ NonTransferrableERC20.sol "Modified ERC20 to prevent transfers/approvals/allowances" 
-   ├─ Ownable.sol "Contract for ownership logic"
+│  ├─ NonTransferrableERC20.sol "Modified ERC20 to prevent transfers/approvals/allowances" 
+│  ├─ Ownable.sol "Contract for ownership logic"
 ├─ MBD.sol "This is the main contract for the token logic"
 ```
